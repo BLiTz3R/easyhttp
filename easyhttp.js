@@ -28,7 +28,7 @@ easyHTTP.prototype.post = function(url, data, callback) {
         callback(null, self.http.responseText);
     }    
 
-    this.http.send(JSON.stringift(data));
+    this.http.send(JSON.stringify(data));
 }
 
 
@@ -42,7 +42,7 @@ easyHTTP.prototype.put = function(url, data, callback) {
         callback(null, self.http.responseText);
     }    
 
-    this.http.send(JSON.stringift(data));
+    this.http.send(JSON.stringify(data));
 }
 
 

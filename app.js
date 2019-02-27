@@ -1,7 +1,7 @@
 const http = new easyHTTP;
 
 // Get posts
-http.get('https://jsonplacebolder.typicode.com/posts', function(error, posts) {
+http.get('https://jsonplaceholder.typicode.com/posts', function(error, posts) {
     if (error) {
         console.log(error);
     } else {
@@ -10,7 +10,7 @@ http.get('https://jsonplacebolder.typicode.com/posts', function(error, posts) {
 });
 
 // Get single post
-http.get('https://jsonplacebolder.typicode.com/posts/1', function(error, post) {
+http.get('https://jsonplaceholder.typicode.com/posts/1', function(error, post) {
     if (error) {
         console.log(error);
     } else {
@@ -25,7 +25,7 @@ const data = {
 };
 
 // Create post
-http.post('https://jsonplacebolder.typicode.com/posts', data, function(error, post) {
+http.post('https://jsonplaceholder.typicode.com/posts', data, function(error, post) {
     if (error) {
         console.log(error);
     } else {
@@ -34,7 +34,7 @@ http.post('https://jsonplacebolder.typicode.com/posts', data, function(error, po
 });
 
 // Update post
-http.put('https://jsonplacebolder.typicode.com/posts/1', data, function(error, post) {
+http.put('https://jsonplaceholder.typicode.com/posts/1', data, function(error, post) {
     if (error) {
         console.log(error);
     } else {
@@ -43,7 +43,7 @@ http.put('https://jsonplacebolder.typicode.com/posts/1', data, function(error, p
 });
 
 // Delete post
-http.delete('https://jsonplacebolder.typicode.com/posts/1', function(error, response) {
+http.delete('https://jsonplaceholder.typicode.com/posts/1', function(error, response) {
     if (error) {
         console.log(error);
     } else {
