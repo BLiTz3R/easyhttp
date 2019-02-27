@@ -1,2 +1,2 @@
 # easyHTTP v0.1
-A custom HTTP library (AJAX with callbacks)
+A custom HTTP request library (AJAX with callbacks)
